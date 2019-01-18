@@ -1,0 +1,17 @@
+header {
+    font-size : 30px;
+    margin:auto;
+    width: 960px;
+    background : #666;
+    
+    
+}
+#logo{
+    float:left;
+}
+header img{
+    display:inline;
+}
+body{
+   
+}
