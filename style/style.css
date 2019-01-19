@@ -1,17 +1,109 @@
 header {
-    font-size : 30px;
-    margin:auto;
     width: 960px;
-    background : #666;
-    
-    
+    /* background-color:; */
+    margin: auto;
+    margin-bottom: 40px;
 }
 #logo{
     float:left;
 }
-header img{
-    display:inline;
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 8px;
+}
+header nav{
+    float:right;
+}
+#chocoCake{
+    width:960px;
+}
+#topLine{
+    width: 960px;
+    border: 4px solid #666;
+    margin-top: 40px;
 }
 body{
-   
+    width: 960px;
+    margin:auto;
+    margin-bottom: 40px;
 }
+h3{
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h4{
+    font-size: 10px;
+}
+#paragraphs{
+    width: 960px;
+    font-size: 18px;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+#printLogo{
+    float:right;
+    font-size: 8px;
+}
+#chocoCake{
+    margin-top: 40px;
+}
+
+#bottomLine{
+    border: 4px solid #666;
+    margin-top: 20px;
+}
+#listRight{
+    margin-top: 30px;
+    width:calc(960px - 50%);
+    float:right;
+    
+    
+}
+#listLeft{
+    margin-top: 30px;
+    width: calc(960px -50%);
+    float:left;
+    
+    margin-left: 50px;
+}
+section{
+    margin-top:350px;
+}
+#list{
+    height: 300px;
+    background-image: url(../img/list-bg.png);
+}
+body p{
+    font-size: 20px;
+    text-indent: 30px;
+    margin-bottom: 30px;
+
+}
+div ol li{
+    font-size: 17px;
+    padding: 8.5px;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#lady{
+    float:left;
+}
+button{
+    color: white;
+    background:maroon;
+    transition: 350ms;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    float:right;
+    text-transform: uppercase;
+}
+button:hover{
+border: 1px solid black;
+background: white;
+color:maroon;
+}
+
